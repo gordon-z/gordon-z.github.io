@@ -5,7 +5,7 @@
 
 html {
     font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
-    font-family: 'Newsreader', serif; /* this should be the rest of the output you got from Google fonts */
+    font-family: 'Fira Sans', sans-serif;
 }
 
 h1 {
@@ -30,10 +30,10 @@ h1 {
 .header {
   background-color: rgba(0,0,0,0.92);
   height: 50px;
+  text-align: center;
 }
 
 ul.nav {
-  text-align: center;
   color: white;
   list-style: none;
 }
@@ -42,10 +42,29 @@ li.header-item {
   color: white;
   text-align: center;
   text-decoration: none;
-  display: inline;
+  display: inline-block;
+  padding: 1em;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+#boxed {
+  margin-left: 400px;
+  padding-top: 400px;
+  height:250px;
+  width:600px;
+  text-align: left;
+  vertical-align: middle;
+  float: left;
+}
+
+#main_pic {
+  vertical-align: middle;
+  display: inline-block;
+  margin: auto;
+  position: relative;
+  padding-top: 200px;
 }
