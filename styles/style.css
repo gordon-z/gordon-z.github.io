@@ -68,7 +68,7 @@ a {
 }
 
 #main_pic {
-  margin: auto;
+  margin: auto auto auto 70px;
   display: inline-block;
   vertical-align: middle;
 }
