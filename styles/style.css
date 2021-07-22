@@ -51,20 +51,24 @@ a {
   text-decoration: none;
 }
 
-#boxed {
-  margin-left: 400px;
-  padding-top: 400px;
+#intro {
+  margin: 200px auto;
+  width: 80%;
+  
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
   height:250px;
   width:600px;
-  text-align: left;
-  vertical-align: middle;
-  float: left;
+  display: inline-block;
+  margin-left: 100px;
 }
 
 #main_pic {
-  vertical-align: middle;
-  display: inline-block;
   margin: auto;
-  position: relative;
-  padding-top: 200px;
+  display: inline-block;
+  vertical-align: middle;
 }
