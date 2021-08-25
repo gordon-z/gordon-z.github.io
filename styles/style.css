@@ -11,20 +11,24 @@ html {
 h1 {
   font-size: 60px;
   text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  color: rgb(135, 150, 184);
+  padding-bottom: 30px;
 }
 
 p, li {
   font-size: 16px;
+  line-height: 30px;
 }
 
 body {
   text-rendering: optimizeLegibility;
   background-color: #eff2f5fd;
-}
-
-h1 {
-  margin: 0;
-  padding: 20px;
 }
 
 .header {
@@ -54,10 +58,9 @@ a {
 #intro {
   margin: 200px auto;
   width: 80%;
-  
 }
 
-.box {
+.textbox {
   display: flex;
   justify-content: center;
   align-items: center; 
@@ -71,4 +74,28 @@ a {
   margin: auto auto auto 60px;
   display: inline-block;
   vertical-align: middle;
+}
+
+.breakbox {
+  background-color: white;
+  padding: 5% 20%;
+}
+
+.breakbox2 {
+  background-color: #eff2f5fd;
+  padding: 5% 20%;
+}
+
+a.contact {
+  font-size: 20px;
+  color: rgb(135, 150, 184);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1em;
+}
+
+.footer {
+  height: 50px;
+  text-align: center;
 }
